@@ -6,8 +6,8 @@ import TabComponent from "../TabComponent/TabComponent";
 
 const Dashboard = () => {
   return (
-    <div className="min-h-screen bg-gray-100 p-4">
-      <div className="bg-white p-4 rounded shadow-sm">
+   
+      <div className="min-h-screen bg-white p-4 rounded shadow-sm">
         <div className="flex justify-between items-center mb-4">
           <h1 className="text-xl font-bold">Sunrise DF Dashboard</h1>
           <div className="flex space-x-4">
@@ -30,7 +30,7 @@ const Dashboard = () => {
           </div>
         </div>
       </div>
-    </div>
+  
   );
 };
 
